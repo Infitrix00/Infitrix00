@@ -1,0 +1,101 @@
+/* Selector {
+	        property: value;
+}*/
+body {
+	margin: 0px;
+}
+
+.fire {
+	 padding:10px;
+	 margin:0px;
+	 cursor:pointer;
+	 color:#FFFF;
+	 border:0.2px solid #FFFF;
+	 font-size:1em;
+	 }
+
+.main-nav{
+	    display:flex;
+	    flex-wrap: wrap;
+	    list-style:none;
+	    margin: 0px;
+	    border-bottom:2px solid #450606;
+	    border-right:2px solid #450606;
+	    box-shadow: 2px 3px 3px #450606;
+	    background: #07FFEE;
+	}
+
+.done {
+	position: fixed;
+	left:0;
+	top: 0;
+	width: 97%;
+}
+.main-nav:hover {
+	    transition: all 2s;
+}
+
+.move {
+	width: 293px;
+	margin:0px;
+	padding: 15px;
+}
+.in {
+	border-right: 0px;
+}
+.on {
+	border-right: 0px;
+}
+
+.out {
+	border-right:0px;
+   }
+.pics {
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: repeat(auto-fill, minmax(350px,3fr));
+}
+
+.one {
+	border-right:10px solid red;
+   }
+
+.min {
+	border-bottom:10px solid red;
+}
+
+.max {
+   border-right: 10px solid red;
+}
+
+.moon {
+	border-bottom: 10px solid red;
+	border-top: 10px solid red;
+	background: black;
+}
+
+.sun {
+	border-bottom: 10px solid red;
+	background: black;
+}
+
+.star {
+	border-right: 10px solid red;
+}
+
+.mon {
+	border-top: 10px solid red;
+	background: black;
+	justify-content: center;
+}
+
+.start:hover {
+         transform: rotate(-7deg);
+}
+
+.foot {
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	background: #46FF0B;
+}
